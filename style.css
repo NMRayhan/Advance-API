@@ -1,11 +1,23 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
 .country{
     border: 1px solid rebeccapurple;
     padding: 10px;
     margin: 20px;
     border-radius: 20px;
-    width: 30%;
+    width: 390px;
 }
-.countryDetails{
+#countryDetails{
     display: grid;
-    grid-template-columns: repeat(10px,1px);
+    grid-template-columns: repeat(3,1fr);
+}
+.country-name{
+    font-size: 40px;
+    color: royalblue;
+}
+.capital-name{
+    color: royalblue;
+    font-size: 1.5em;
 }

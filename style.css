@@ -8,8 +8,9 @@
     margin: 20px;
     border-radius: 20px;
     width: 390px;
+    text-align: center;
 }
-#countryDetails{
+#ShowCountry{
     display: grid;
     grid-template-columns: repeat(3,1fr);
 }
@@ -20,4 +21,8 @@
 .capital-name{
     color: royalblue;
     font-size: 1.5em;
+}
+#countryDetails img{
+    width: 200px;
+    height: 100px;
 }
